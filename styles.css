@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(161, 155, 155);
+
+}
+.container{
+    height:100%;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 200px auto;
+    grid-template-areas: "dashboard header"
+                         "dashboard main "
+                         
+                           
+    
+}
+
+.dashboard{
+    grid-area: dashboard;
+    background-color: skyblue;
+    border:1px solid black;
+}
+.header{
+    grid-area: header;
+    background-color: white;
+    border:1px solid black;
+}
+.main{
+    grid-area: main;
+    background-color:aliceblue;
+    border:1px solid black;
+}

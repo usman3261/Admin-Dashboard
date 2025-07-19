@@ -52,6 +52,38 @@ body{
     grid-area: header;
     background-color: white;
     border:1px solid black;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    padding:50px;
+    
+}
+.head1{
+    display: flex;
+    flex-direction:column ;
+    gap:20px;
+}
+.head2{
+    margin-left: auto;
+    display: flex;
+    flex-direction:column ;
+    gap:50px;
+}
+button{
+    height: 20px;
+    width: 60px;
+    background-color: skyblue;
+    color: white;
+}
+.button{
+    display: flex;
+    gap: 20px;
+}
+button:hover{
+    font-size:15px;
+    font-weight: bold;
+    
+
 }
 .main{
     grid-area: main;

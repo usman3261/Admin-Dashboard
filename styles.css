@@ -86,7 +86,43 @@ button:hover{
 
 }
 .main{
-    grid-area: main;
     background-color:aliceblue;
-    border:1px solid black;
+    display: flex;
+    
+}
+.main1{
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "hproject hproject"
+                        "project1 project2"
+                       "project3 project4" 
+                       "project5 project6";
+    
+}
+.hproject{
+    grid-area: hproject;
+}
+.project1{
+    grid-area: project1;
+}
+.project2{
+    grid-area: project2;
+}
+.project3{
+    grid-area: project3;
+}
+.project4{
+    grid-area: project4;
+}
+.project5{
+    grid-area: project5;
+}
+.project6{
+    grid-area: project6;
+}
+.project{
+    background-color: white;
+    position: relative;
+    bottom:80px;
 }

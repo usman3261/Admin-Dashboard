@@ -25,6 +25,28 @@ body{
     grid-area: dashboard;
     background-color: skyblue;
     border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    color: white;
+    align-items: center;
+}
+.d1>div:hover,.d2>div:hover,.d3>div:hover{
+    color:aliceblue;
+    font-weight: bold;
+    font-size: large;
+}
+.d1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    right: 17px;
 }
 .header{
     grid-area: header;

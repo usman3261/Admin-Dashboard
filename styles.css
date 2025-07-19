@@ -91,6 +91,7 @@ button:hover{
     
 }
 .main1{
+    padding:20px;
     display: grid;
     gap:20px;
     grid-template-columns: 1fr 1fr;
@@ -124,5 +125,32 @@ button:hover{
 .project{
     background-color: white;
     position: relative;
-    bottom:80px;
+    bottom:60px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    position: relative;
+    left:10px;
+}
+.main2a{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.a1,.a2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:12px;
+    
+}
+.a2{
+    gap:10px;
+    background-color: white;
+}
+.a1 div{
+    background-color: white;
+    border-bottom:1px solid grey;
 }
